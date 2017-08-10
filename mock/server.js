@@ -101,8 +101,8 @@ app.get('/userinfo',function (req, res){
     let data = {
         code:1,
         data:{
-            avatar:`http://www.wangyukai.xin:${port}/pdd.jpg`,
-            name:'我最帅',
+            avatar:`http://www.hongsick.xin:${port}/1.jpg`,
+            name:'路飞',
             username:'amhandsome',
         }
     };
@@ -112,7 +112,7 @@ app.get('/userinfo',function (req, res){
 app.get('/chatinfo',function (req,res) {
     let data = {
         list:[
-            {user:'seller',avatar:`http://www.wangyukai.xin:${port}/pdd.jpg`,content:'欢迎光临!骚猪为您服务'}
+            {user:'seller',avatar:`http://www.hongsick.xin:${port}/pdd.jpg`,content:'欢迎光临!骚猪为您服务'}
         ]
     };
     res.send(JSON.stringify(data))
