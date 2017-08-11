@@ -5,7 +5,7 @@ let ip = require('../ipLocation');
 module.exports = {
     notice:{
         name:'张江药谷',
-        msg:'你好毒你好毒你好嘟嘟嘟嘟嘟嘟嘟嘟'
+        msg:'您的订单已经打包发货'
     },
     messages:[
         {
