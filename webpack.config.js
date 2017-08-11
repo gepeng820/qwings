@@ -55,7 +55,7 @@ module.exports = {
         },
         proxy: {
             "/api": {
-                target: "http://localhost:8333",
+                target: "http://www.hongsick.xin:8333",
                 pathRewrite: {"^/api" : ""}
             }
         }
